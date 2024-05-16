@@ -1,0 +1,232 @@
+*{
+    margin:0;
+    border:border-box;
+    font-family: Arial;
+}
+.navbar{
+    height:60px;
+    background-color: #0f1111;
+    color:white;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.navlogo{
+    height:50px;
+    width:113px;
+}
+.logo{
+    background-image: url(amazon_logo.png);
+    height: 50px;
+    width:113px;
+    background-size: cover;
+    
+
+}
+.border{
+    border:2px solid transparent;
+}
+.border:hover{
+ border:1.5px solid white;
+ 
+}
+/*ADDRESS*/
+.add1{
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+.add2{
+    color:white;
+    font-size: 1rem;
+    margin-left:3px;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+.search{
+    display: flex;
+    justify-content: space-evenly;
+    width: 620px;
+    background-color: aliceblue;
+    height: 40px;
+    border-radius: 4px;
+    
+}
+.search-icon{
+    background-color: #febd68;
+    color: #0f1111;
+}
+.select-search{
+    background-color: #E6E6E6;
+    width: 53px;
+    text-align:center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border:none;
+}
+.search-input{
+    width:552px;
+    font-size: 1rem;
+    border:none;
+}
+.search-icon{
+    width:45px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius:4px ;
+}
+span{
+    font-size: 0.7rem;
+}
+.nav-second{
+    font-size:0.85rem;
+    font-weight: 700;
+}
+.search:hover{
+    border:2px solid orange;
+}
+
+.flag i{
+    font-size: 20px; 
+}
+.flag{
+    font-size:0.85rem;
+    font-weight:700;
+}
+.cart i{
+    font-size: 30px; 
+}
+.cart{
+    font-size:0.85rem;
+    font-weight:700;
+}
+/*Panel*/
+.panel{
+    height: 40px;
+    display:flex;
+    background-color:#222f3d;
+    color: white;
+     font-weight: 700;
+     align-items:center;
+     justify-content: space-evenly;
+     border:border-box;
+}
+.panel-ops p {
+    display:inline;
+     color: white;
+     font-weight: 700;
+     margin-left:10px;
+}
+.panel-ops{
+  width:95%;
+}
+.hero-section{
+    background-image: url(amazon\ hero\ page.jpg);
+    height:350px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+.hero-mssg{
+    background-color: white;
+    color: black;
+    height:40px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    width:95%;
+    margin-bottom: 25px;
+}
+a{
+    color:#007185;
+}
+.box{
+    height:300px;
+    width:23%;
+    /*border:2px solid black;*/
+    background-color: white;
+   padding: 20px 0px 15px;
+   margin-bottom: 15px;
+    
+}
+.shop-section{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #D6EDFB;
+}
+.boximage{
+background-image: url(deals\ in\ PCs.jpg);
+background-size:cover;
+height:240px;
+margin-top: 0.5rem;
+margin-bottom:0.5rem;
+}
+.boxcontent{
+    margin-left: 15px;
+    margin-right: 15px;
+    }
+    h2{
+        font-size:20px;
+    }
+.boxcontent p{
+    font-size:14px;
+    color:#007185;
+}
+.boximage1{
+    background-image: url(photo-1561030144-775b0ba95af6.avif);
+    background-size:cover;
+  height:240px;
+  margin-top: 0.5rem;
+   margin-bottom:0.5rem;
+}
+.boximage2{
+    background-image: url(shoes.jpg);
+    background-size:cover;
+    height:240px;
+    margin-top: 0.5rem;
+    margin-bottom:0.5rem;
+}
+.boximage3{
+   background-image: url(shop\ deals\ in\ fashion.avif);
+  background-size:cover;
+   height:240px;
+   margin-top: 0.5rem;
+   margin-bottom:0.5rem;
+}
+.boximage4{
+    background-image: url(gaming.jpg);
+    background-size:cover;
+height:240px;
+margin-top: 0.5rem;
+margin-bottom:0.5rem;
+}
+.boximage5{
+    background-image: url(electronics.avif);
+    background-size:cover;
+height:240px;
+margin-top: 0.5rem;
+margin-bottom:0.5rem;
+}
+.boximage6{
+    background-image: url(makeup.avif);
+    background-size:cover;
+height:240px;
+margin-top: 0.5rem;
+margin-bottom:0.5rem;
+}
+.boximage7{
+    background-image: url(stationary.avif);
+    background-size:cover;
+height:240px;
+margin-top: 0.5rem;
+margin-bottom:0.5rem;
+}
